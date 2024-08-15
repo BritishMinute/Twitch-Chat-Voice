@@ -18,6 +18,12 @@ replace TOKEN_FILE_PATH on line 22 with (twitch_access_token.txt from earlier)'s
 run.bat:
 replace your path here on line 5 with the TwitchTTS.py file path
 
+Once this is all done, run the batch file and it will begin reading it out loud, if the batch file does not work try using python idle or other IDE's
+
+PIP INSTALL REQUIREMENTS:
+{pip install pyttsx3 pyaudio requests Flask}
+run these in your python directory in terminal
+
 IMPORTANT INFORMATION IN GENERAL:
 Remove extra quote marks, if theres 2 on one side in the things i say to replace, there shouldn't be
 Do not share your auth token as this will allow accsess to your twitch, i can not see this as this code is run locally
